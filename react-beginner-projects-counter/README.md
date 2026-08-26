@@ -1,74 +1,73 @@
-# Проекты для начинающих на ReactJS
+# ReactJS Projects for Beginners
 
-Все проекты разработаны для бесплатного курса на канале [Archakov Blog](https://www.youtube.com/c/ArchakovBlog)
+All projects were created for the free course on the [Archakov Blog](https://www.youtube.com/c/ArchakovBlog) YouTube channel.
 
-Каждый проект хранится в отдельной ветке.
+Each project is stored in a separate branch.
 
-## Счётчик
+## Counter
 ![1660249082356](https://user-images.githubusercontent.com/12086860/184235207-2d20299a-0b9a-40e6-acf7-be582f6ecbfe.png)
 
-**🌿 Ветка**: `counter`
+**🌿 Branch**: `counter`
 
-**👀 Что изучим?**
-1. Что такое состояние (state)
-2. Хук useState
-3. Как при клике на кнопку вызывать функцию
+**👀 What will we learn?**
+1. What state is
+2. How to use the `useState` hook
+3. How to call a function when a button is clicked
 
-## Модальное окно
+## Modal Window
 ![1660249510674](https://user-images.githubusercontent.com/12086860/184235807-bfb5d74b-68dc-4903-8b15-e18f6427fcc2.png)
 
-**🌿 Ветка**: `modal`
+**🌿 Branch**: `modal`
 
-**👀 Что изучим?**
-1. Условный рендер
-2. Как делать анимированное модальное окно
-3. Как передавать в модально окно контент (children)
-4. Как передавать пропсы
+**👀 What will we learn?**
+1. Conditional rendering
+2. How to create an animated modal window
+3. How to pass content to a modal using `children`
+4. How to pass props
 
-## Quiz (опросник)
+## Quiz
 ![1660249609940](https://user-images.githubusercontent.com/12086860/184236063-9f807f93-f6a4-4577-9a12-443ff1d3fd43.png)
 
-**🌿 Ветка**: `quiz`
+**🌿 Branch**: `quiz`
 
-**👀 Что изучим?**
-1. Поэтапный рендер контента
-2. Прогрессбар
-3. Передача пропсов для рендера результата опроса
+**👀 What will we learn?**
+1. Rendering content step by step
+2. Creating a progress bar
+3. Passing props to render quiz results
 
-## Список гостей (пользователей)
+## Guest List (Users)
 ![1660249789449](https://user-images.githubusercontent.com/12086860/184236601-2c8d94bf-105c-4b48-982c-65a6ed4f8c51.png)
 
-**🌿 Ветка**: `users`
+**🌿 Branch**: `users`
 
-**👀 Что изучим?**
-1. Работа с хуком useEffect
-2. Отправка запроса на бэкенд с помощью fetch и рендер этих данных
-3. Скелетон с помощью библиотеки `react-content-loader`
-4. Поиск пользователей
-5. Рендер списка пользователей
-6. Spread-оператор
-7. Добавление/удаление пользователей из массива приглашений
-8. Отображение информации о загрузке контента
+**👀 What will we learn?**
+1. How to use the `useEffect` hook
+2. Sending a request to a backend with `fetch` and rendering the returned data
+3. Creating a skeleton loader with the `react-content-loader` library
+4. Searching for users
+5. Rendering a list of users
+6. Using the spread operator
+7. Adding and removing users from an invitation list
+8. Displaying content-loading status
 
-## Конвертер валют
+## Currency Converter
 ![1660250017350](https://user-images.githubusercontent.com/12086860/184237245-dd26fc7e-1b84-4490-b9cf-3d40a4ded550.png)
 
-**🌿 Ветка**: currency-converter
+**🌿 Branch**: `currency-converter`
 
-**👀 Что изучим?**
-1. Работа с хуком useEffect
-2. Получение списка курса валют из отдельного API 
-3. Конвертация одной валюты в другую и наоборот (без бэкенда)
+**👀 What will we learn?**
+1. How to use the `useEffect` hook
+2. Fetching exchange rates from an external API
+3. Converting between currencies without a backend
 
-## Коллекция фотографий
+## Photo Collection
 ![1660250202173](https://user-images.githubusercontent.com/12086860/184237707-4810b1d8-f20b-40cf-93ea-37d2051b87ba.png)
 
+**🌿 Branch**: `photos`
 
-**🌿 Ветка**: `photos`
-
-**👀 Что изучим?**
-1. Фильтрация коллекций с помощью категорий
-2. Поиск коллекций
-3. Пагинация
-4. Получение, пагинация через бэкенд
-5. Отображение информации о загрузке контента
+**👀 What will we learn?**
+1. Filtering collections by category
+2. Searching collections
+3. Pagination
+4. Fetching paginated data from a backend
+5. Displaying content-loading status
